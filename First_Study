@@ -1,2 +1,16 @@
+#파이썬 공부하기
+#일자 : 2019.03.08
+#작성자 : 정영주
+
+#단순 출력하기
 print("Hello Wolrd!")
+
+#단순 계산하기
 print((10.5+2*3)/(45-3.5))
+
+#입력 받은 값을 계산하는 예제
+value1 = eval(input("첫번째 값을 입력하세요"))
+value2 = eval(input("두번째 값을 입력하세요"))
+sumval = value1+value2
+print(sumval)
+
