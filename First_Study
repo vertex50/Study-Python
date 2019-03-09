@@ -3,14 +3,18 @@
 #작성자 : 정영주
 
 #단순 출력하기
-print("Hello Wolrd!")
+print("Hello Wolrd!\n")
 
 #단순 계산하기
-print((10.5+2*3)/(45-3.5))
+print((10.5+2*3)/(45-3.5),"\n")
 
 #입력 받은 값을 계산하는 예제
 value1 = eval(input("첫번째 값을 입력하세요"))
 value2 = eval(input("두번째 값을 입력하세요"))
 sumval = value1+value2
-print(sumval)
+print(sumval,"\n")
 
+PI = 3.141592
+radius = 1.0
+area = radius*radius*PI
+print("반지름이 ",radius,"인 원의 원주(둘레)는 ",area, "입니다.\n")
